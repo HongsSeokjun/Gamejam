@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
     {
         //좌우 반전 함수
         int key = 0;
-        //�¿� ���� �Լ�
+        
         if (Input.GetKey(KeyCode.W))
         {   // y축 1.6 x축 -7 y축 -4.7 x축 7
             transform.position += (new Vector3(0, moveSpeed * Time.deltaTime, 0));
